@@ -51,19 +51,66 @@ body {
 .site-nav a:hover {
     text-decoration: underline;
 }
-
+git add index.html styles.css
+.hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+    text-align: center;
+}
 
 .hero-logo {
     display: block;
     max-width: 150px;
     height: auto;
-    margin: 20px auto 0;
+    margin: 0 auto 20px;
 }
 
 .hero-title {
     font-family: 'The Youngest', serif;
     font-size: 50px;
-    text-align: center;
     color: #333;
-    margin: 10px 0;
+    margin: 0 0 16px;
+}
+
+.hero-tagline {
+    font-size: 1.125rem;
+    color: #555;
+    margin: 0 0 32px;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-primary {
+    background-color: rgb(123, 17, 19);
+    color: #fffffe;
+}
+
+.btn-primary:hover {
+    background-color: rgb(95, 12, 14);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: rgb(123, 17, 19);
+    border: 2px solid rgb(123, 17, 19);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(123, 17, 19);
+    color: #fffffe;
 }
