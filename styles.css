@@ -1,18 +1,69 @@
 html, body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 @font-face {
-            font-family: 'The Youngest';
-            src: url('src/TheYoungestSerif-D.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
+    font-family: 'The Youngest';
+    src: url('src/TheYoungestSerif-D.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
-.logo {
-  max-width: 150px;
-  height: auto;  
-  display: block;  
-  margin-left: auto;
-  margin-right: auto;
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.5;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 20px;
+    background-color: rgb(123, 17, 19);
+    color: #fffffe;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.site-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.site-nav a {
+    color: #F3AA2C;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.hero-logo {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+.hero-title {
+    font-family: 'The Youngest', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
 }
