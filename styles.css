@@ -93,9 +93,12 @@ body {
 .btn {
     display: inline-block;
     padding: 12px 24px;
+    border: none;
     border-radius: 4px;
+    font-family: inherit;
     font-size: 1rem;
     text-decoration: none;
+    cursor: pointer;
     transition: background-color 0.15s ease, color 0.15s ease;
 }
 
@@ -201,6 +204,114 @@ body {
 
 .prose p:last-child {
     margin-bottom: 0;
+}
+
+
+.text-link {
+    color: rgb(123, 17, 19);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.text-link:hover {
+    color: #F3AA2C;
+    text-decoration: none;
+}
+
+.auth-page {
+    min-height: 100vh;
+    background-color: #f7f5f2;
+}
+
+.auth-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 32px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.auth-home-link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 16px;
+}
+
+.auth-logo {
+    display: block;
+    width: 72px;
+    height: auto;
+}
+
+.auth-title {
+    font-family: 'The Youngest', serif;
+    font-size: 2rem;
+    color: rgb(123, 17, 19);
+    text-align: center;
+    margin: 0 0 28px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-field label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-field input {
+    padding: 12px 14px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-field input:focus {
+    outline: none;
+    border-color: rgb(123, 17, 19);
+    box-shadow: 0 0 0 3px rgba(123, 17, 19, 0.12);
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.auth-alt {
+    margin: 24px 0 0;
+    text-align: center;
+    font-size: 0.9375rem;
+    color: #555;
+}
+
+
+.form-hint {
+    margin: 0;
+    font-size: 0.8125rem;
+    color: #777;
 }
 
 .collection-grid {

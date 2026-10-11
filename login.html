@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in — The Philippine Heritage Archive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="auth-page">
+
+    <main class="auth-wrapper">
+        <div class="auth-card">
+
+            <a href="index.html" class="auth-home-link">
+                <img src="src/logo.png" alt="Philippine Heritage Archive" class="auth-logo">
+            </a>
+
+            <h1 class="auth-title">Log in</h1>
+
+            <form class="auth-form" action="#" method="post">
+
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">Log in</button>
+
+            </form>
+
+            <p class="auth-alt">
+                Don't have an account?
+                <a href="register.html" class="text-link">Create one</a>
+            </p>
+
+        </div>
+    </main>
+
+</body>
+</html>
