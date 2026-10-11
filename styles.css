@@ -51,7 +51,7 @@ body {
 .site-nav a:hover {
     text-decoration: underline;
 }
-git add index.html styles.css
+
 .hero {
     max-width: 720px;
     margin: 0 auto;
@@ -113,4 +113,28 @@ git add index.html styles.css
 .btn-secondary:hover {
     background-color: rgb(123, 17, 19);
     color: #fffffe;
+}
+
+.intro {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.intro-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(123, 17, 19);
+    margin: 0 0 16px;
+}
+
+.intro-text {
+    font-size: 1rem;
+    color: #444;
+    margin: 0 0 16px;
+}
+
+.intro-text:last-child {
+    margin-bottom: 0;
 }
