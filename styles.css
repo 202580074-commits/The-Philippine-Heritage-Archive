@@ -22,6 +22,12 @@ body {
     line-height: 1.5;
 }
 
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
 .site-header {
     display: flex;
     align-items: center;
@@ -53,9 +59,7 @@ body {
 }
 
 .hero {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 40px 20px 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -116,13 +120,10 @@ body {
 }
 
 .intro {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 40px 20px;
     border-top: 1px solid #e0e0e0;
 }
 
-.intro-heading {
+.section-heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     color: rgb(123, 17, 19);
@@ -137,4 +138,103 @@ body {
 
 .intro-text:last-child {
     margin-bottom: 0;
+}
+
+.collections {
+    padding-bottom: 60px;
+}
+
+.collections .section-heading {
+    margin-bottom: 24px;
+}
+
+
+/* ---------- Footer ---------- */
+.site-footer {
+    background-color: rgb(123, 17, 19);
+    color: #fffffe;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #fffffe;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-nav a {
+    color: #F3AA2C;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.page-title {
+    font-family: 'The Youngest', serif;
+    font-size: 2.5rem;
+    color: rgb(123, 17, 19);
+    margin: 0 0 24px;
+}
+
+.prose p {
+    font-size: 1rem;
+    color: #444;
+    margin: 0 0 20px;
+}
+
+.prose p:last-child {
+    margin-bottom: 0;
+}
+
+.collection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    flex: 1 1 240px;
+    display: block;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+    border-color: rgb(123, 17, 19);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
+    color: rgb(123, 17, 19);
+    margin: 0 0 8px;
+}
+
+.card-text {
+    font-size: 0.9375rem;
+    color: #555;
+    margin: 0;
 }
