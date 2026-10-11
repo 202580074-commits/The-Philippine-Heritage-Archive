@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse by Topic — The Philippine Heritage Archive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <img src="src/logo.png" alt="Philippine Heritage Archive logo" class="header-logo">
+        <h1 class="site-title">The Philippine Heritage Archive</h1>
+        <nav class="site-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="container prose">
+            <h2 class="page-title">Browse by Topic</h2>
+
+                        <p>
+                Every entry in the archive, grouped by subject. Entries shown in
+                grey are planned but not yet written.
+            </p>
+
+            <div class="search-bar">
+                <label for="search" class="search-label">Search topics</label>
+                <input
+                    type="search"
+                    id="search"
+                    class="search-input"
+                    placeholder="e.g. weaving, Vigan, Tagalog"
+                    autocomplete="off">
+                <p class="search-empty" id="search-empty" hidden>
+                    No topics match that search.
+                </p>
+            </div>
+
+            <section class="index-group">
+                <h3 class="section-heading">History</h3>
+                <ul class="index-list">
+                    <li><a href="article.html">Bahay na bato</a></li>
+                    <li><span class="index-planned">Pre-colonial trade networks</span></li>
+                    <li><span class="index-planned">The Galleon Trade</span></li>
+                    <li><span class="index-planned">Katipunan</span></li>
+                </ul>
+            </section>
+
+            <section class="index-group">
+                <h3 class="section-heading">Languages and Oral Traditions</h3>
+                <ul class="index-list">
+                    <li><span class="index-planned">Tagalog</span></li>
+                    <li><span class="index-planned">Cebuano</span></li>
+                    <li><span class="index-planned">The Hudhud of the Ifugao</span></li>
+                    <li><span class="index-planned">Darangen</span></li>
+                </ul>
+            </section>
+
+            <section class="index-group">
+                <h3 class="section-heading">Built Heritage</h3>
+                <ul class="index-list">
+                    <li><a href="article.html">Bahay na bato</a></li>
+                    <li><span class="index-planned">Barasoain Church</span></li>
+                    <li><span class="index-planned">Historic City of Vigan</span></li>
+                    <li><span class="index-planned">Rice Terraces of the Philippine Cordilleras</span></li>
+                </ul>
+            </section>
+
+            <section class="index-group">
+                <h3 class="section-heading">Arts and Craft</h3>
+                <ul class="index-list">
+                    <li><span class="index-planned">Piña weaving</span></li>
+                    <li><span class="index-planned">Banig</span></li>
+                    <li><span class="index-planned">Kulintang</span></li>
+                </ul>
+            </section>
+
+            <section class="index-group">
+                <h3 class="section-heading">Natural Heritage</h3>
+                <ul class="index-list">
+                    <li><span class="index-planned">Tubbataha Reefs</span></li>
+                    <li><span class="index-planned">Chocolate Hills</span></li>
+                    <li><span class="index-planned">Philippine eagle</span></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-text">
+                The Philippine Heritage Archive — a non-commercial educational project.
+            </p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        </footer>
+
+    <script src="search.js"></script>
+</body>
+</html>
